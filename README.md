@@ -47,5 +47,5 @@ All SQL scripts are numbered and **must be executed sequentially**.
 - Late-arriving data: If session events are delayed, idle time may appear negative or unusually long.
 - Simplified dataset: With the current mock dataset, idle times are illustrative; production datasets may reveal edge cases not covered here.
 
-### It is important to note that a well-designed ETL process typically includes control and audit tables to track data processing and ensure traceability. While these are not covered in this blueprint, developers should consider implementing them in a production environment.
+##### It is important to note that a well-designed ETL process typically includes control and audit tables to track data processing and ensure traceability. While these are not covered in this blueprint, developers should consider implementing them in a production environment.
 
